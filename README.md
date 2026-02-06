@@ -39,7 +39,7 @@ Edit `main.py`:
 from submissions.template_bot import Bot
 
 # To this (with your filename):
-from submissions.yourname_yournetid import Bot
+from submissions.yourname_yournetid import YourSNUNetID # For eg. DJ141
 ```
 
 Run the test:
