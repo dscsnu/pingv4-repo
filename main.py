@@ -8,10 +8,10 @@ HOW TO USE:
 """
 
 from pingv4 import Connect4Game, MinimaxBot, RandomBot
-from submissions import template_bot.py # Change this line to import yourname_yournetid.py
+from submissions import vasu_va703
 
 def main():
-  bot = Bot
+  bot = vasu_va703.Bot
   print("=" * 50)
   print(f"Testing Bot: {bot.strategy_name}")
   print(f"Author: {bot.author_name} {bot.author_netid}")
@@ -19,24 +19,25 @@ def main():
   print()
 
   # Test 1: Human vs Your Bot
-  print("Test: Human vs Your Bot")
-  input("Press Enter to start")
-  game = Connect4Game(player1=None, player2=Bot)
-  game.run()
+  # print("Test: Human vs Your Bot")
+  # input("Press Enter to start")
+
+  # game = Connect4Game(player1=None, player2=bot)
+  # game.run()
 
   # Uncomment additional tests
 
   # Test 3: Your Bot vs Random Bot
   # print("Test: Your Bot vs Random Bot")
   # input("Press Enter to start")
-  # game = Connect4Game(player1=Bot, player2=RandomBot")
+  # game = Connect4Game(player1=bot, player2=RandomBot)
   # game.run()
 
   # Test 34: Your Bot vs Minimax Bot
-  # print("Test: Your Bot vs Minimax Bot")
-  # input("Press Enter to start")
-  # game = Connect4Game(player1=Bot, player2=MinimaxBot")
-  # game.run()
+  print("Test: Your Bot vs Minimax Bot")
+  input("Press Enter to start")
+  game = Connect4Game(player1=bot, player2=MinimaxBot)
+  game.run()
 
   # Test 3: Your Bot vs Your Bot
   # print("Test: Your Bot vs Your Bot")
