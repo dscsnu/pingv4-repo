@@ -1,4 +1,4 @@
-from pingv4 import AbstractBot, ConnectFourBoard, CellState, Connect4Game, MinimaxBot,RandomBot
+from pingv4 import AbstractBot, ConnectFourBoard, CellState, Connect4Game, MinimaxBot
 from typing import Dict, Tuple
 
 class pravin_s(AbstractBot):
