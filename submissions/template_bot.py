@@ -4,7 +4,7 @@ Copy this and rename it to: yourname_yournetid.py
 """
 
 from pingv4 import AbstractBot, ConnectFourBoard
-
+import random
 class Bot(AbstractBot):
   """
   This will be your Connect4 bot.
@@ -13,7 +13,7 @@ class Bot(AbstractBot):
   
   @property
   def strategy_name(self) -> str:
-    return "Your Strategy Name"
+    return "Loser Bot"
 
   @property
   def author_name(self) -> str:
@@ -26,4 +26,4 @@ class Bot(AbstractBot):
   def get_move(self, board: ConnectFourBoard) -> int:
     valid_moves = board.get_valid_moves()
     # This is an example of just picking the first valid move.
-    return valid_moves[0] # You should improve this!
+    return int(input("Enter move: "))
