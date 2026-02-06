@@ -9,7 +9,7 @@ class dp449(AbstractBot):
         self.start_time = 0
         self.nodes = 0
         # 9.5s limit. We use every millisecond.
-        self.time_limit = 9.5 
+        self.time_limit = 9.0
         self.column_order = [3, 2, 4, 1, 5, 0, 6]
 
     @property
