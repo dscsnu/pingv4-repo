@@ -3,15 +3,12 @@ A test runner.
 
 HOW TO USE:
 1. Create your bot in submissions/yourname_yournetid.py
-2. Chan
-
-
- the import line to import YOUR bot
+2. Change the import line to import YOUR bot
 3. Run python main.py
 """
 
 from pingv4 import Connect4Game, MinimaxBot, RandomBot
-from submissions.mk463_mridhula import mk463 as Bot
+from submissions import template_bot.py # Change this line to import yourname_yournetid.py
 
 def main():
   bot = Bot
@@ -21,9 +18,6 @@ def main():
   print("=" * 50)
   print()
 
-
-
-def main():
   # Test 1: Human vs Your Bot
   print("Test: Human vs Your Bot")
   input("Press Enter to start")
