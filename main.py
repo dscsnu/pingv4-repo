@@ -7,8 +7,10 @@ HOW TO USE:
 3. Run python main.py
 """
 
-from pingv4 import Connect4Game, MinimaxBot, RandomBot
-from submissions import template_bot.py # Change this line to import yourname_yournetid.py
+
+from pingv4 import Connect4Game
+from submissions.saikarthik_sr255 import saikarthik_sr255
+
 
 def main():
   bot = Bot
@@ -45,4 +47,4 @@ def main():
   # game.run()
 
 if __name__ == "__main__":
-  main()
+    main()
