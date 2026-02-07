@@ -11,7 +11,7 @@ from pingv4 import Connect4Game, MinimaxBot, RandomBot
 from submissions import pa986 # Change this line to import yourname_yournetid.py
 
 def main():
-  bot = pa986.Pa986
+  bot = Bot
   print("=" * 50)
   print(f"Testing Bot: {bot.strategy_name}")
   print(f"Author: {bot.author_name} {bot.author_netid}")
