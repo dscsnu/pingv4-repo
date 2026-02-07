@@ -8,7 +8,8 @@ HOW TO USE:
 """
 
 from pingv4 import Connect4Game, MinimaxBot, RandomBot
-from submissions import template_bot.py # Change this line to import yourname_yournetid.py
+from submissions import template_bot
+from submissions.amogh_aa371 import AA371 # Change this line to import yourname_yournetid.py
 
 def main():
   bot = Bot
@@ -21,7 +22,7 @@ def main():
   # Test 1: Human vs Your Bot
   print("Test: Human vs Your Bot")
   input("Press Enter to start")
-  game = Connect4Game(player1=None, player2=Bot)
+  game = Connect4Game(player1=AA371, player2=MinimaxBot)
   game.run()
 
   # Uncomment additional tests
