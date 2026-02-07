@@ -12,7 +12,7 @@ from submissions import template_bot
 from submissions.amogh_aa371 import AA371 # Change this line to import yourname_yournetid.py
 
 def main():
-  bot = AA371
+  bot = Bot
   print("=" * 50)
   print(f"Testing Bot: {bot.strategy_name}")
   print(f"Author: {bot.author_name} {bot.author_netid}")
