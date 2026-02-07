@@ -13,6 +13,13 @@ HOW TO USE:
 from pingv4 import Connect4Game, MinimaxBot, RandomBot
 from submissions.mk463_mridhula import mk463 as Bot
 
+def main():
+  bot = Bot
+  print("=" * 50)
+  print(f"Testing Bot: {bot.strategy_name}")
+  print(f"Author: {bot.author_name} {bot.author_netid}")
+  print("=" * 50)
+  print()
 
 
 
