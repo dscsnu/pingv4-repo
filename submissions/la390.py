@@ -249,7 +249,3 @@ class LA390(AbstractBot):
             score -= 3
 
         return score
-
-
-# Alias for tournament - THIS MUST BE AT MODULE LEVEL (no indentation)
-Bot = LA390
